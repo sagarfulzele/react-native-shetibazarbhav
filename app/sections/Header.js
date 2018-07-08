@@ -8,7 +8,7 @@ export class Header extends React.Component{
         this.state = {isLoggedIn:false};
     }
 
-
+ 
     toggleUser = ()=>{
         this.setState(previousState => {
             return { isLoggedIn: !previousState.isLoggedIn };

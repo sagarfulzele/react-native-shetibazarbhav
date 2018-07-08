@@ -6,7 +6,7 @@ import { Menu } from '../sections/Menu.js'
 export class Home extends React.Component{
 
     render() 
-    {
+    { 
         return(
             <View style={styles.container}>
                 

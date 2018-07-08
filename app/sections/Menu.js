@@ -8,7 +8,7 @@ export class Menu extends React.Component {
     onPress = () => {
         Alert.alert('You have tapped the button');
     }
-
+ 
     render() {
         return (
             <View style={styles.container}> 
